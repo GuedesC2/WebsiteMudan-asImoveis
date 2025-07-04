@@ -1,0 +1,508 @@
+CRITICAL - 2023-07-30 16:50:26 --> Class "App\Controllers\usuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 16:52:22 --> Class "App\Models\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 16:52:43 --> Class "App\Models\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 16:53:28 --> Class "App\Controllers\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 16:54:53 --> Class "App\Controllers\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 16:54:57 --> Class "App\Controllers\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 16:55:33 --> Class "App\Controllers\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 16:55:34 --> Class "App\Controllers\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 16:57:00 --> Class "App\Models\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 16:57:01 --> Class "App\Models\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 16:57:01 --> Class "App\Models\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 16:57:07 --> Undefined variable $usuarioModel
+in APPPATH\Controllers\Home.php on line 42.
+ 1 APPPATH\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioModel', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Controllers\\Home.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 16:57:13 --> Undefined variable $usuario
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Controllers\\Home.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:00:16 --> Class "App\Models\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:02:49 --> Class "App\Models\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:02:50 --> Class "App\Models\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:03:16 --> Class "App\Controllers\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:03:18 --> Class "App\Controllers\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:05:47 --> Class "App\Models\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:05:48 --> Class "App\Models\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:05:49 --> Class "App\Models\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:06:12 --> Class "App\Models\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:06:39 --> Class "App\Models\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:06:39 --> Class "App\Models\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:06:58 --> Class "App\Controllers\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:07:04 --> Class "App\Models\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:18:57 --> Class "App\Controllers\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:18:57 --> Class "App\Controllers\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:18:58 --> Class "App\Controllers\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:19:30 --> Class "App\Controllers\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:19:30 --> Class "App\Controllers\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:22:08 --> Class "App\Models\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:23:45 --> Class "App\Models\UsuarioModel" not found
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:23:52 --> Undefined variable $usuarioModel
+in APPPATH\Controllers\Home.php on line 43.
+ 1 APPPATH\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioModel', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Controllers\\Home.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:37:42 --> Call to undefined method App\Models\UsuarioModel::getClientes
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(43): CodeIgniter\Model->__call('getClientes', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:37:43 --> Call to undefined method App\Models\UsuarioModel::getClientes
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(43): CodeIgniter\Model->__call('getClientes', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:40:10 --> Undefined array key "nome"
+in APPPATH\Views\editarMeusDados.php on line 49.
+ 1 APPPATH\Views\editarMeusDados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:40:23 --> Undefined array key "nome"
+in APPPATH\Views\editarMeusDados.php on line 49.
+ 1 APPPATH\Views\editarMeusDados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:41:30 --> Undefined array key "nome"
+in APPPATH\Views\editarMeusDados.php on line 49.
+ 1 APPPATH\Views\editarMeusDados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:41:35 --> Undefined array key "Nome"
+in APPPATH\Views\editarMeusDados.php on line 49.
+ 1 APPPATH\Views\editarMeusDados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:41:58 --> Undefined array key "Nome"
+in APPPATH\Views\editarMeusDados.php on line 51.
+ 1 APPPATH\Views\editarMeusDados.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:41:59 --> Undefined array key "Nome"
+in APPPATH\Views\editarMeusDados.php on line 51.
+ 1 APPPATH\Views\editarMeusDados.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:44:17 --> Undefined array key "Nome"
+in APPPATH\Views\editarMeusDados.php on line 49.
+ 1 APPPATH\Views\editarMeusDados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:44:17 --> Undefined array key "Nome"
+in APPPATH\Views\editarMeusDados.php on line 49.
+ 1 APPPATH\Views\editarMeusDados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:46:17 --> Undefined array key "nome"
+in APPPATH\Views\editarMeusDados.php on line 49.
+ 1 APPPATH\Views\editarMeusDados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:46:36 --> Array to string conversion
+in APPPATH\Views\editarMeusDados.php on line 49.
+ 1 APPPATH\Views\editarMeusDados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:46:48 --> Array to string conversion
+in APPPATH\Views\editarMeusDados.php on line 49.
+ 1 APPPATH\Views\editarMeusDados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:46:49 --> Array to string conversion
+in APPPATH\Views\editarMeusDados.php on line 49.
+ 1 APPPATH\Views\editarMeusDados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:47:02 --> Undefined array key "sobrenome"
+in APPPATH\Views\editarMeusDados.php on line 49.
+ 1 APPPATH\Views\editarMeusDados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sobrenome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:47:23 --> Undefined array key "Nome"
+in APPPATH\Views\editarMeusDados.php on line 49.
+ 1 APPPATH\Views\editarMeusDados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:49:33 --> Undefined array key "Nome"
+in APPPATH\Views\editarMeusDados.php on line 49.
+ 1 APPPATH\Views\editarMeusDados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:50:29 --> Undefined array key "Nome"
+in APPPATH\Views\editarMeusDados.php on line 49.
+ 1 APPPATH\Views\editarMeusDados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:50:30 --> Undefined array key "Nome"
+in APPPATH\Views\editarMeusDados.php on line 49.
+ 1 APPPATH\Views\editarMeusDados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:50:30 --> Undefined array key "Nome"
+in APPPATH\Views\editarMeusDados.php on line 49.
+ 1 APPPATH\Views\editarMeusDados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:51:01 --> Undefined array key "Nome"
+in APPPATH\Views\editarMeusDados.php on line 49.
+ 1 APPPATH\Views\editarMeusDados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:51:02 --> Undefined array key "Nome"
+in APPPATH\Views\editarMeusDados.php on line 49.
+ 1 APPPATH\Views\editarMeusDados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:52:49 --> Undefined array key "Nome"
+in APPPATH\Views\editarMeusDados.php on line 54.
+ 1 APPPATH\Views\editarMeusDados.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:53:32 --> Undefined array key "Nome"
+in APPPATH\Views\editarMeusDados.php on line 53.
+ 1 APPPATH\Views\editarMeusDados.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nome"', 'C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websitemudanca\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 23:28:47 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Home.php(57): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->dadosCadastro()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 23:29:21 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Home.php(57): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->dadosCadastro()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 23:32:00 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Home.php(58): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->dadosCadastro()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 23:33:29 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Home.php(58): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->dadosCadastro()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 23:38:58 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Home.php(56): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->dadosCadastro()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

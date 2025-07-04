@@ -1,0 +1,236 @@
+CRITICAL - 2023-11-14 14:13:30 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-14 14:14:59 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-11-14 14:15:00 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2023-11-14 13:15:18 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\projeto-integrador\m\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\projeto-integrador\m\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'websitemudanca', 3306, '', 0)
+#1 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projeto-integrador\m\app\Models\imovelModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projeto-integrador\m\app\Controllers\Home.php(11): App\Models\imovelModel->getimovel()
+#6 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projeto-integrador\m\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\projeto-integrador\m\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projeto-integrador\m\app\Models\imovelModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projeto-integrador\m\app\Controllers\Home.php(11): App\Models\imovelModel->getimovel()
+#5 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projeto-integrador\m\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 13:15:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `imovel`', [], false)
+ 3 APPPATH\Models\imovelModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(11): App\Models\imovelModel->getimovel()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 13:15:31 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'websitemudanca' in C:\xampp\htdocs\projeto-integrador\m\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\projeto-integrador\m\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'websitemudanca', 3306, '', 0)
+#1 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projeto-integrador\m\app\Models\imovelModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projeto-integrador\m\app\Controllers\Home.php(11): App\Models\imovelModel->getimovel()
+#6 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projeto-integrador\m\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'websitemudanca' in C:\xampp\htdocs\projeto-integrador\m\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projeto-integrador\m\app\Models\imovelModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projeto-integrador\m\app\Controllers\Home.php(11): App\Models\imovelModel->getimovel()
+#5 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projeto-integrador\m\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 13:15:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'websitemudanca'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `imovel`', [], false)
+ 3 APPPATH\Models\imovelModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(11): App\Models\imovelModel->getimovel()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 13:15:35 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'websitemudanca' in C:\xampp\htdocs\projeto-integrador\m\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\projeto-integrador\m\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'websitemudanca', 3306, '', 0)
+#1 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projeto-integrador\m\app\Models\imovelModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projeto-integrador\m\app\Controllers\Home.php(11): App\Models\imovelModel->getimovel()
+#6 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projeto-integrador\m\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'websitemudanca' in C:\xampp\htdocs\projeto-integrador\m\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projeto-integrador\m\app\Models\imovelModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projeto-integrador\m\app\Controllers\Home.php(11): App\Models\imovelModel->getimovel()
+#5 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projeto-integrador\m\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 13:15:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'websitemudanca'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `imovel`', [], false)
+ 3 APPPATH\Models\imovelModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(11): App\Models\imovelModel->getimovel()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-14 13:19:45 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'websitemudanca' in C:\xampp\htdocs\projeto-integrador\m\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\projeto-integrador\m\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'websitemudanca', 3306, '', 0)
+#1 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projeto-integrador\m\app\Models\imovelModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projeto-integrador\m\app\Controllers\Home.php(11): App\Models\imovelModel->getimovel()
+#6 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projeto-integrador\m\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'websitemudanca' in C:\xampp\htdocs\projeto-integrador\m\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projeto-integrador\m\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projeto-integrador\m\app\Models\imovelModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projeto-integrador\m\app\Controllers\Home.php(11): App\Models\imovelModel->getimovel()
+#5 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\projeto-integrador\m\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projeto-integrador\m\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-14 13:19:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'websitemudanca'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `imovel`', [], false)
+ 3 APPPATH\Models\imovelModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(11): App\Models\imovelModel->getimovel()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-14 20:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 20:23:38 --> Undefined array key 0
+in APPPATH\Views\editarMeusDados.php on line 137.
+ 1 APPPATH\Views\editarMeusDados.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\projeto-integrador\\m\\app\\Views\\editarMeusDados.php', 137)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\projeto-integrador\\m\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\EditarDados.php(33): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\EditarDados->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditarDados))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-14 20:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 20:24:42 --> Undefined array key 0
+in APPPATH\Views\editarMeusDados.php on line 137.
+ 1 APPPATH\Views\editarMeusDados.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\projeto-integrador\\m\\app\\Views\\editarMeusDados.php', 137)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\projeto-integrador\\m\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\EditarDados.php(33): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\EditarDados->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditarDados))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-14 20:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 20:25:46 --> Undefined array key 0
+in APPPATH\Views\editarMeusDados.php on line 137.
+ 1 APPPATH\Views\editarMeusDados.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\projeto-integrador\\m\\app\\Views\\editarMeusDados.php', 137)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\projeto-integrador\\m\\app\\Views\\editarMeusDados.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editarMeusDados', [], true)
+ 5 APPPATH\Controllers\EditarDados.php(33): view('editarMeusDados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\EditarDados->editarMeusDados()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditarDados))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-14 20:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 20:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,214 @@
+*{margin: 0; padding: 0; box-sizing: border-box; text-decoration: none; font-family: 'Times New Roman', Times, serif;}
+
+
+#nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px dashed rgb(255, 140, 0);
+}
+
+.logo{
+    width: 150px;
+    height: 10vh;
+    margin-right: 700px;
+}
+
+body{
+    position: relative;
+}
+
+#nav ul{
+    list-style: none;
+    display: flex;
+}
+
+#nav ul li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    padding-bottom: 10px;
+    padding-top: 10px; 
+}
+
+#nav a{
+    color: white;
+}
+
+#nav ul li a:hover{
+    color: rgb(255, 140, 0);
+    font-weight: 500;
+    
+}
+
+#logout a{
+    border: 2px solid  rgb(255, 140, 0);
+    border-radius: 8px;
+    background-color:  rgb(255, 140, 0);
+    padding:8px ;
+}
+
+#logout a:hover{
+    background-color: black;
+    color:  rgb(255, 140, 0); 
+    cursor: pointer;
+
+}
+
+/* Fim Nav Bar */
+
+.pagina-sistema{
+    position: relative;
+    height: 550px;
+}
+
+
+.barraLateral{
+    width: 250px;
+    height: 90vh;
+    position: absolute;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border: none;
+    margin-top: 0px;
+}
+
+.barraLateral input{
+    width: 248px;
+    height: 60px;
+    border-top: none ;
+    color: whitesmoke;
+    background-color: rgb(255, 140, 0);
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    margin-top: 45px;
+    margin-bottom: -20px;
+    font-size: 15px;
+}
+
+#bnt-cadastrarImovel {
+    width: 130px;
+    height: 80px;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
+
+#bnt-cadastrarImovel:hover{
+    border: 2px solid rgb(255, 140, 0);
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+#conteudo{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 270px;
+    top: 10px;
+    width: 1013px;
+    border: 1px dashed black;
+
+}
+
+.formulario-cadastro{
+    width: 990px;
+    height: 83vh;
+}
+
+.divForm-infosBasicas{
+    position: absolute;
+    left: 20px;
+    top: 60px;
+}
+
+.divForm-descricao{
+    position: absolute;
+    left: 20px;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.divForm-Localizacao{
+    position: absolute;
+    left: 450px;
+    top: 280px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ 
+}
+
+.divForm-contato{
+    position: absolute;
+    left: 20px;
+    top: 280px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.divForm-addImgs{
+    position: absolute;
+    left: 450px;
+    top: 85px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.divForm-termo{
+    position: absolute;
+    left: 20px;
+    top: 420px;
+}
+
+.divForm-btnCadastrar{
+    position: absolute;
+    left: 20px;
+    top: 450px;
+}
+
+.divForm-btnCadastrar button {
+    width: 180px;
+    border: 1px dashed black;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.formulario-cadastro h2{
+    color: black;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.divForm-infosBasicas #tipo{
+    width: 180px;
+    border: 1px dashed black;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.conteudo{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}

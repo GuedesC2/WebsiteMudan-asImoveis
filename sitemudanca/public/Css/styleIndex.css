@@ -1,0 +1,473 @@
+*{margin: 0; padding: 0; box-sizing: border-box; text-decoration: none; font-family: 'Times New Roman', Times, serif;}
+
+#nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    z-index: 1000;
+}
+
+.logo{
+    width: 150px;
+    height: 10vh;
+    margin-left: 20px;
+}
+
+.banner img{
+    height: 100vh;      
+    width: 50%;
+    margin-left: 50%;
+}
+
+body{
+    position: relative;
+}
+
+#nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#nav ul li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    padding-bottom: 10px;
+    padding-top: 10px; 
+}
+
+#nav a{
+    color: white;
+}
+
+#nav ul li a:hover{
+    color: rgb(255, 140, 0);
+    font-weight: 500;
+    
+}
+
+
+#login a{
+    border: 2px solid rgb(255, 140, 0);
+    border-radius: 8px;
+    background-color: rgb(255, 140, 0);
+    padding:9px ;
+    
+}
+
+#login a:hover{
+    background-color: black;
+    color: rgb(255, 140, 0); 
+    cursor: pointer;
+}
+
+
+/* Fim do NAV  */
+ 
+.form-pesquisa{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 1300px;
+    position: absolute;
+    left: 50%;
+    top: 450px;
+    transform: translate(-50%, -50%);
+   
+   
+}
+
+.input-pesquisa{
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    
+}
+
+.btn-pesquisar {
+    width: 300px;
+    background-color: rgb(255, 140, 0);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+
+.form-pesquisa input, .form-pesquisa select{
+    padding: 15px;
+    color: black;
+    border-radius: 30px;
+}
+
+.form-pesquisa select{
+    background-color: white;
+    width: 300px;
+}
+
+.link-anuncie{
+    font-size: 14px;
+    background-color:  rgba(128, 128, 128, 0.5);
+    color: white;
+    padding: 9px;
+    border-radius: 12px;
+    position: absolute;
+    left: 10%;
+    top: 490px;
+}
+
+.link-anuncie:hover{
+    color: rgb(255, 140, 0);
+    font-weight: 500;
+    background-color: black;
+    border: 2px solid rgb(255, 140, 0);
+}
+
+.btn-pesquisar:hover {
+    color: rgb(255, 140, 0);
+    font-weight: 500;
+    background-color: black;
+    border: 2px solid rgb(255, 140, 0);
+}
+
+
+.container{
+    margin-top: 40px;
+}
+
+
+.txt-home {
+    color: white;
+    position: relative;
+    padding: 15px;
+    border-radius: 15px;
+    width: 40%;
+    position: absolute;
+    top: 300px;
+    left: 9.5%;
+}
+
+.txt-home h2{
+    font-size: 30px;
+}
+
+.txt-home p{
+    font-size: 18px;
+}
+
+
+
+.sobre {
+    color: white;
+    background-color: rgba(26, 26, 26, 0.897);
+    margin-inline: 2%;
+}
+
+.sobre img{
+    width: 600px;
+    height: 300px;
+    margin-top: 10%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.half {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.right{  
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.half-txt{
+    margin-inline: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.informações{
+    color: white;
+    text-align: center;
+}
+
+.final{
+    color: white;
+    height: 200px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.half2 {
+    background-color: rgba(26, 26, 26, 0.897);
+    margin-inline: 150px;
+    margin-bottom: 0px;
+    width: 50%;
+    padding: 40px;
+    margin-top: 50px;
+    margin-bottom: 5%;
+}
+
+
+
+/* Sessão Imóveis */
+
+
+.sessaoImoveis{
+    width: 100%;
+    margin-top: 170px;
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.imovel{
+    width: 350px;
+    border: 1px dashed rgb(255, 140, 0);
+    height: 580px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.informacoes ul{
+    display: flex;
+    align-items: center;
+}
+.informacoes ul li {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    column-gap: 3px;
+    row-gap: 7px;
+}
+.informacoes ul li img{
+    width: 30px;
+}
+
+.informacoes ul li hr{
+    width: 50px;
+}
+
+.informacoes a {
+    background-color: rgb(255, 140, 0);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    color: whitesmoke;
+    margin-top: 15px;
+}
+
+.informacoes{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes div img{
+    width: 40px;
+}
+.informacoes div{
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    color: whitesmoke;
+}
+
+
+.preco-botao{
+    margin-top: 20px;
+}
+.bnt-vermais{
+    position: absolute;
+    right: 10px;
+    top: 515px;
+}
+
+.preco{
+    position: absolute;
+    left: 10px;
+
+}
+
+
+.preco p{
+   margin-left: 10px;
+   font-size: 20px;
+
+}
+
+.fotos{
+    width: 350px;
+    height: 390px;
+}
+
+.fotos img {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+
+.fotos h2 {
+    font-size: 24px;
+    color: whitesmoke; 
+    margin-top: 10px;  
+}
+.fotos h2::first-letter {
+    text-transform: uppercase;
+}
+
+.fotos h2 span::first-letter {
+    text-transform: uppercase;
+}
+
+
+.fotos {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+}
+
+#carousel {
+    width: 95%;
+    margin: 100px auto;
+    overflow: hidden;
+    position: relative;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.361);
+}
+
+#carousel .carousel-inner {
+    width: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+#carousel .carousel-item {
+    width: 100%;
+    flex-shrink: 0;
+    display: flex; 
+   
+}
+
+.slide-container {
+    display: flex;
+}
+
+#carousel .slide {
+    width: 450px; /* Distribui igualmente os 3 slides por linha */
+    padding: 10px;
+    margin-right: 15px;
+    box-sizing: border-box;
+}
+
+#carousel img {
+    margin-top: 10px;
+    max-width: 100%;
+    width: 300px; /* Define a largura como 100% para ocupar todo o espaço disponível */
+    height: 400px; /* Defina a altura fixa para todas as imagens */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
+    
+}
+
+#carousel h2 {
+    margin-top: 10px;
+ 
+    
+}
+
+.btnscarousel{
+    width: 345px;   
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#prevBtn{
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: rgb(255, 140, 0);
+}
+
+
+#nextBtn{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: rgb(255, 140, 0);
+    margin-left: 20px;
+}
+.preço{
+    
+    left: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.slide{
+    color: white;
+    text-align: center;
+}
+
+footer{
+    margin-top: 80px;
+    width: 100%;
+    height: 437px;
+    flex-shrink: 0;
+    background-image: url(../img/footer.png);
+    position: relative;
+}
+
+.iconesFooter{
+    position: absolute;
+    bottom: 54px;
+    right: 11.9%;
+}
+
+.iconesFooter a{
+    margin-left: 29.7px;
+    
+}
+
+
+
+
+
+
+
+
+

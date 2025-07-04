@@ -1,0 +1,114 @@
+*{margin: 0; padding: 0; box-sizing: border-box; text-decoration: none;}
+
+/*------Barra de Navegação-----*/
+
+#nav{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url(imgs/img83.jpg) center center;
+}
+
+#nav ul{
+    list-style: none;
+    display: flex;
+}
+
+#nav ul li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+#nav a{
+    color: white;
+}
+
+#nav ul li a:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#nav ul .login{
+    border: 2px solid rgb(255, 140, 0);
+    border-radius: 8px;
+    background-color: rgb(255, 140, 0);
+    padding-left:8px ;
+    padding-right:8px ;
+    
+}
+/*------FIM Barra de Navegação-----*/
+
+
+
+body{
+    background: url(157\ Sleepless\ Night.png) no-repeat center center;  
+    position: relative;
+}
+
+.container{
+    
+    width: 400px;
+    height: 300px;
+    background: url(156\ Witch\ Dance.png) no-repeat center center; 
+    background-size: cover; 
+    position: absolute;
+    left: 37vw;
+    top: 32vh;
+    border-radius: 10px;
+    
+}
+
+.formulario-login {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 15px;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    
+}
+
+.formulario-login input{
+    width: 265px;
+    padding: 10px ;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-login{
+    width: 265px;
+    padding: 10px ;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-criarConta{
+    width: 265px;
+    padding: 10px ;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    top: 250px;
+    left: 70px;
+    
+}
+
+.formulario-login a{
+    color: black;
+    font-size: 16px;
+}
+
+.hr{
+  border: none;
+  height: 1px;
+  background-color: white;
+  margin: 225px 25px;
+}
