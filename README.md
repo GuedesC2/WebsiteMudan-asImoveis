@@ -16,7 +16,6 @@ Organização por categorias e dados
 
 Tecnologias utilizadas:
 HTML5, CSS3, JavaScript
-(Pode adicionar aqui outras tecnologias que você estiver usando, como PHP, Bootstrap, Node.js etc.)
 
 Como usar:
 
@@ -25,9 +24,6 @@ git clone https://github.com/GuedesC2/WebsiteMudan-asImoveis.git
 
 Acesse a pasta do projeto:
 cd WebsiteMudan-asImoveis/sitemudanca
-
-Abra o arquivo index.html no navegador.
-(Se o projeto tiver backend, adicione aqui as instruções de execução.)
 
 Estrutura básica do projeto:
 
